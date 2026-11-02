@@ -1,0 +1,3 @@
+model,outputs,mean_protected_mae,mean_inference_seconds,prior_seconds_shared,mean_seconds_with_shared_prior,peak_allocated_gpu_gib
+SDXL,20,27.751700353622436,18.856,0.0,18.856,5.23
+Kandinsky,20,28.93314938545227,12.642,10.23,13.1535,3.235

@@ -1,0 +1,41 @@
+model,product,seed,preservation,background,cleanliness,usable,notes
+SDXL,Coca_Cola,42,3.0,1.0,1.0,no,"The central bottle remains recognisable, but its appearance changes. Extra bottles and reflections are generated. The background does not match the requested blue studio scene."
+Kandinsky,Coca_Cola,42,2.0,3.0,1.0,no,"The bottle remains recognisable, but an invented snack-style wrapper surrounds it. The background is blue, although the tabletop is very light and the backdrop is overly bright."
+SDXL,Coca_Cola,123,3.0,1.0,3.0,no,"Bottle remains recognisable, but has a bright outline and a grey background instead of the requested blue scene."
+Kandinsky,Coca_Cola,123,2.0,3.0,1.0,no,An new wrapper surrounds the bottle.The background is blue but the product presentation changes.
+SDXL,Coffee_cup,42,3.0,1.0,3.0,no,"Cup remains recognisable, but its colour changes and a bright outline appears against a grey background."
+Kandinsky,Coffee_cup,42,3.0,3.0,2.0,no,"Blue background is generated, but the lid gains an unnatural flared edge and a new tabletop like white surface."
+SDXL,Coffee_cup,123,3.0,1.0,3.0,no,"Cup and lid remain visible, but tones change and the background is grey rather than blue."
+Kandinsky,Coffee_cup,123,3.0,3.0,2.0,no,"Blue scene partly matches the prompt, but the lid and lower cup edge appear altered."
+SDXL,Doritos,42,3.0,1.0,3.0,no,"Brand and packet remain recognisable, but colours are washed out and a white halo surrounds the packet."
+Kandinsky,Doritos,42,4.0,3.0,4.0,no,Packet is mostly preserved with a blue studio background. The tabletop is pale and the backdrop is brighter than requested.
+SDXL,Doritos,123,2.0,1.0,3.0,no,Packet colours and contrast change noticeably. A bright border remains against a grey background.
+Kandinsky,Doritos,123,4.0,3.0,4.0,no,"Packet remains recognisable with minor appearance changes. Blue background is present, but the tabletop is not clearly defined."
+SDXL,KitKat,42,4.0,1.0,3.0,no,"Main packaging layout is retained, but a pale outline appears and the background does not follow the blue prompt."
+Kandinsky,KitKat,42,3.0,3.0,3.0,no,"Brand remains recognisable, but the wrapper edges and bottom seal change against a bright blue scene."
+SDXL,KitKat,123,3.0,1.0,3.0,no,"Packaging remains recognisable, but its appearance changes and the background remains grey."
+Kandinsky,KitKat,123,3.0,3.0,3.0,no,Wrapper shape and lower edge change. The blue scene only partly matches the requested studio setup.
+SDXL,Mount_Franklin,42,4.0,1.0,3.0,no,"Bottle shape and label are mostly retained, but lighting changes and the background is grey with a reflection."
+Kandinsky,Mount_Franklin,42,1.0,3.0,1.0,no,"The bottle is surrounded by invented metallic-looking packet packaging, substantially changing the product."
+SDXL,Mount_Franklin,123,4.0,1.0,3.0,no,Bottle remains recognisable with changed tones and a bright edge against a grey background.
+Kandinsky,Mount_Franklin,123,1.0,2.0,1.0,no,Bottle gains invented sealed-wrapper packaging. The background also contains a large dark area.
+SDXL,Oreo,42,4.0,1.0,2.0,no,"Main wrapper design is retained, but a strong glowing outline appears against the grey background."
+Kandinsky,Oreo,42,2.0,3.0,1.0,no,The slim wrapper becomes a larger pouch-like package. Blue background is present but packaging is inaccurate.
+SDXL,Oreo,123,4.0,1.0,3.0,no,Wrapper remains recognisable with a pale edge. The requested blue tabletop and backdrop are absent.
+Kandinsky,Oreo,123,1.0,3.0,1.0,no,"Wrapper shape, orientation and size change substantially into an invented pouch."
+SDXL,Pringles,42,3.0,1.0,1.0,no,"Central can remains recognisable, but many extra snack-like objects appear around it."
+Kandinsky,Pringles,42,4.0,3.0,4.0,no,Can is mostly preserved without major extra objects.The pale tabletop and vivid backdrop only partly match the prompt.
+SDXL,Pringles,123,3.0,1.0,3.0,no,"Can remains recognisable, but colours change and a bright outline appears against a grey background."
+Kandinsky,Pringles,123,3.0,3.0,4.0,no,"Can remains recognisable, but lighting and colour change within a strongly coloured blue scene."
+SDXL,Red_Bull,42,4.0,1.0,2.0,no,"Can is mostly retained, but an extra object appears beneath it and the background is grey."
+Kandinsky,Red_Bull,42,2.0,3.0,1.0,no,"Invented wrapper-like edges surround the can, changing its packaging despite the blue background."
+SDXL,Red_Bull,123,3.0,1.0,3.0,no,"Can remains recognisable, but its tones change and a pale outline remains against a grey background."
+Kandinsky,Red_Bull,123,2.0,2.0,1.0,no,Can gains distorted wrapper-like edges. A dark horizontal band interrupts the blue scene.
+SDXL,Red_Rock_Deli,42,4.0,1.0,1.0,no,"Main packet is retained, but extra packet fragments and repeated snack-like shapes appear around it."
+Kandinsky,Red_Rock_Deli,42,4.0,3.0,4.0,no,Main packet design is mostly preserved with minor edge changes. The tabletop is lighter than requested.
+SDXL,Red_Rock_Deli,123,3.0,1.0,3.0,no,"Packet remains recognisable, but colours are washed out and a pale border appears against grey."
+Kandinsky,Red_Rock_Deli,123,3.0,3.0,4.0,no,"Packet remains recognisable, but its colour and edges change. The blue scene only partly follows the prompt."
+SDXL,Smiths_Orginal,42,3.0,1.0,3.0,no,"Packet remains recognisable, but colours change and the background is brown-grey with a bright border."
+Kandinsky,Smiths_Orginal,42,4.0,3.0,4.0,no,Packet design is mostly retained. The vivid blue background and pale tabletop partly match.
+SDXL,Smiths_Orginal,123,3.0,1.0,3.0,no,Packet colours change and a white halo remains. The background does not match the blue studio instructions.
+Kandinsky,Smiths_Orginal,123,3.0,3.0,3.0,no,"Packet remains recognisable, but its lower edge and lighting change against the blue scene."

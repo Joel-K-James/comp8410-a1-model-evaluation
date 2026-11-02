@@ -1,0 +1,63 @@
+{
+  "model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "settings": {
+    "prompt": "A snack packet on a matte blue tabletop, solid dark blue background, blue studio backdrop, commercial product photography.",
+    "negative_prompt": "extra products, people, hands, watermark, clutter, blurry",
+    "num_inference_steps": 25,
+    "guidance_scale": 7.5,
+    "strength": 1.0,
+    "width": 768,
+    "height": 768
+  },
+  "seeds": [
+    42,
+    123
+  ],
+  "products": [
+    "Coca_Cola",
+    "Coffee_cup",
+    "Doritos",
+    "KitKat",
+    "Mount_Franklin",
+    "Oreo",
+    "Pringles",
+    "Red_Bull",
+    "Red_Rock_Deli",
+    "Smiths_Orginal"
+  ],
+  "scheduler": "EulerDiscreteScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "prediction_type": "epsilon",
+    "interpolation_type": "linear",
+    "use_karras_sigmas": false,
+    "use_exponential_sigmas": false,
+    "use_beta_sigmas": false,
+    "sigma_min": null,
+    "sigma_max": null,
+    "timestep_spacing": "leading",
+    "timestep_type": "discrete",
+    "steps_offset": 1,
+    "rescale_betas_zero_snr": false,
+    "final_sigmas_type": "zero",
+    "_use_default_values": [
+      "sigma_min",
+      "use_exponential_sigmas",
+      "timestep_type",
+      "rescale_betas_zero_snr",
+      "use_beta_sigmas",
+      "sigma_max",
+      "final_sigmas_type"
+    ],
+    "_class_name": "EulerDiscreteScheduler",
+    "_diffusers_version": "0.21.0.dev0",
+    "clip_sample": false,
+    "sample_max_value": 1.0,
+    "set_alpha_to_one": false,
+    "skip_prk_steps": true
+  }
+}

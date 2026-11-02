@@ -1,0 +1,7 @@
+{
+  "initial_ratings": "AI-assisted draft",
+  "student_review": "Student reports checking all output comparisons",
+  "scale": "1 = very poor; 3 = partly meets; 5 = fully meets",
+  "scope": "10 products, 2 seeds, 2 models, one shared prompt",
+  "limitation": "Subjective review; no independent second human reviewer"
+}

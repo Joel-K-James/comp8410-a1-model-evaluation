@@ -1,0 +1,20 @@
+{
+  "model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "product": "Doritos",
+  "seed": 42,
+  "settings": {
+    "prompt": "A snack packet on a matte blue tabletop, solid dark blue background, blue studio backdrop, commercial product photography.",
+    "negative_prompt": "extra products, people, hands, watermark, clutter, blurry",
+    "num_inference_steps": 25,
+    "guidance_scale": 7.5,
+    "strength": 1.0,
+    "width": 768,
+    "height": 768
+  },
+  "scheduler": "EulerDiscreteScheduler",
+  "seconds": 18.09,
+  "peak_allocated_gpu_gb": 5.23,
+  "protected_region_mae": 39.3822,
+  "output": "sdxl_strength1_20261101_014747_185106.png",
+  "stage": "strength diagnostic"
+}

@@ -1,0 +1,35 @@
+{
+  "model": "kandinsky-community/kandinsky-2-2-prior",
+  "prompt": "A snack packet on a matte blue tabletop, solid dark blue background, blue studio backdrop, commercial product photography.",
+  "negative_prompt": "extra products, people, hands, watermark, clutter, blurry",
+  "steps": 25,
+  "guidance_scale": 4.0,
+  "precision": "float16",
+  "scheduler": "UnCLIPScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "variance_type": "fixed_small_log",
+    "clip_sample": true,
+    "clip_sample_range": 10.0,
+    "prediction_type": "sample",
+    "beta_schedule": "squaredcos_cap_v2",
+    "_use_default_values": [
+      "beta_schedule"
+    ],
+    "_class_name": "UnCLIPScheduler",
+    "_diffusers_version": "0.17.0.dev0"
+  },
+  "runs": [
+    {
+      "seed": 42,
+      "seconds": 5.8,
+      "peak_allocated_gpu_gb": 3.235
+    },
+    {
+      "seed": 123,
+      "seconds": 4.43,
+      "peak_allocated_gpu_gb": 3.234
+    }
+  ],
+  "embedding_reuse": "Each seed's embeddings reused across 10 products"
+}

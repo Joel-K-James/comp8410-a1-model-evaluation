@@ -1,0 +1,17 @@
+{
+  "purpose": "Check response when the whole image is editable",
+  "model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "seed": 42,
+  "settings": {
+    "prompt": "A snack packet on a matte blue tabletop, solid dark blue background, blue studio backdrop, commercial product photography.",
+    "negative_prompt": "extra products, people, hands, watermark, clutter, blurry",
+    "num_inference_steps": 25,
+    "guidance_scale": 7.5,
+    "strength": 0.99,
+    "width": 768,
+    "height": 768
+  },
+  "seconds": 18.15,
+  "mask": "all white",
+  "stage": "diagnostic, excluded from model comparison"
+}
