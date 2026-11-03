@@ -1,0 +1,7 @@
+model,anomaly_type,transactions_per_seed,mean_recall,std_recall,mean_missed
+RealNVP,large_discount,67,1.0,0.0,0.0
+RealNVP,large_quantity,67,0.9253731343283582,0.02585150459058022,5.0
+RealNVP,short_duration_for_quantity,66,0.9646464646464646,0.06123411945950577,2.3333333333333335
+VAE,large_discount,67,1.0,0.0,0.0
+VAE,large_quantity,67,0.8308457711442786,0.03106964178307657,11.333333333333334
+VAE,short_duration_for_quantity,66,1.0,0.0,0.0

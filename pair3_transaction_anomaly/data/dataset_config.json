@@ -1,0 +1,43 @@
+{
+  "dataset_type": "synthetic controlled experiment",
+  "data_seed": 2026,
+  "features": [
+    "quantity",
+    "unit_price",
+    "discount",
+    "hour_sin",
+    "hour_cos",
+    "duration_seconds"
+  ],
+  "training_normal_only": true,
+  "validation_anomaly_fraction": 0.1,
+  "test_anomaly_fraction": 0.1,
+  "scaler_mean": [
+    2.1485,
+    4.841960312111904,
+    0.021258333333333334,
+    -0.19832369037603978,
+    -0.36172582820529464,
+    25.725818443472356
+  ],
+  "scaler_scale": [
+    1.2621863636827435,
+    2.02039430758105,
+    0.042270950591261715,
+    0.7193044193390561,
+    0.5589483798743188,
+    8.086485615577244
+  ],
+  "threshold_plan": "95th percentile of normal validation scores; flag scores strictly greater than the threshold",
+  "model_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "limitations": [
+    "Injected anomalies follow predefined rules.",
+    "Some anomaly types are deliberately easy to separate.",
+    "Validation and test share the same generating process.",
+    "No evidence of performance on real transactions."
+  ]
+}

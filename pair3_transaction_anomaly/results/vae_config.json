@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "input_dim": 6,
+    "hidden_dim": 32,
+    "latent_dim": 3,
+    "beta": 0.1,
+    "epochs": 50,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "score": "mean squared reconstruction error using latent mean"
+  },
+  "environment": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "gpu": "Tesla T4",
+    "precision": "float32"
+  },
+  "training_timing_scope": "Training loop only, including batch transfers and loss logging; excludes model setup, validation and file saving.",
+  "threshold_method": "95th percentile of normal validation reconstruction errors; alert when score is strictly greater."
+}

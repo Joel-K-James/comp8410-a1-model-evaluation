@@ -1,0 +1,3 @@
+model,mean_training_seconds,mean_training_peak_gpu_gib,parameters
+RealNVP,20.599516514000015,0.0176348686218261,10056
+VAE,8.86887813399998,0.0170454978942871,2860
