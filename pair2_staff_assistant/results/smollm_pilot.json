@@ -1,0 +1,10 @@
+{
+  "question": "What is the total for two waters and one chips?",
+  "stage": "pilot; excluded from main batch",
+  "response": "The total for two waters and one chips is $3.00 each for water (2 x $3.00 = $6.00) plus $4.00 for chips, totaling $6.00 + $4.00 = $10.00.\n\nReference: [R2]",
+  "seconds": 7.8474,
+  "input_tokens": 509,
+  "output_tokens": 60,
+  "peak_allocated_gpu_gib": 5.833,
+  "hit_token_limit": false
+}

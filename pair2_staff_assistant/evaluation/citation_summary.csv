@@ -1,0 +1,3 @@
+model_label,responses,responses_with_reference_ids,mean_expected_id_coverage,exact_reference_sets,expected_id_coverage_percent
+Qwen3,30,30,0.95,26,95.0
+SmolLM3,30,19,0.5666666666666667,15,56.666666666666664

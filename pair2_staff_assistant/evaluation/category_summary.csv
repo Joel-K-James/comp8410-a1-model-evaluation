@@ -1,0 +1,7 @@
+model_label,category,questions,correct_answers,task_accuracy_percent
+Qwen3,direct,10,10,100.0
+Qwen3,reasoning,10,6,60.0
+Qwen3,unsupported_or_misleading,10,9,90.0
+SmolLM3,direct,10,10,100.0
+SmolLM3,reasoning,10,7,70.0
+SmolLM3,unsupported_or_misleading,10,10,100.0

@@ -1,0 +1,47 @@
+FICTIONAL CONVENIENCE STORE: EVALUATION DATA ONLY
+
+[R1] Opening hours: Monday to Friday 06:00–22:00.
+Saturday and Sunday 07:00–21:00.
+
+[R2] Product prices in AUD:
+Water: $3.00 each.
+Coffee: $4.50 each.
+Chips: $4.00 each.
+Chocolate: $2.50 each.
+Prices are final; do not add tax.
+
+[R3] Promotion: one coffee plus one chocolate costs $6.00.
+Each complete pair qualifies. Remaining items cost their regular price.
+
+[R4] Stock at the start of the test:
+Water: 24 units.
+Coffee cups: 40 units.
+Chips: 15 units.
+Chocolate: 18 units.
+One coffee sold uses one coffee cup.
+
+[R5] Reorder thresholds:
+Water: 10 units.
+Coffee cups: 15 units.
+Chips: 8 units.
+Chocolate: 6 units.
+Reorder only when remaining stock is strictly below the threshold.
+
+[R6] Fictional change-of-mind returns policy:
+An unopened packaged item can be returned within 7 days with a receipt.
+Opened items and prepared coffee are excluded.
+Refer exceptions to the duty manager.
+
+[R7] Delivery: Tuesday and Friday at 09:00.
+Report damaged deliveries to the duty manager and record the item
+and quantity in the delivery log.
+
+[R8] Lost property: record the item and time found, then place it
+in the staff cupboard. Do not disclose personal details to customers.
+
+[R9] Discounts outside the stated promotion need duty-manager approval.
+Do not invent or approve additional discounts.
+
+[R10] Information not supplied:
+Fuel prices, employee pay, passwords, customer identities,
+supplier phone numbers and next month's promotions.

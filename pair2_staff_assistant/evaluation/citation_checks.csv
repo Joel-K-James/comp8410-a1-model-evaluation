@@ -1,0 +1,61 @@
+model_label,id,expected_ids,cited_ids,missing_ids,extra_ids,invalid_ids,expected_id_coverage,has_reference_id,exact_reference_set
+Qwen3,Q01,R1,R1,,,,1.0,True,True
+Qwen3,Q02,R1,R1,,,,1.0,True,True
+Qwen3,Q03,R2,R2,,,,1.0,True,True
+Qwen3,Q04,R2,R2,,,,1.0,True,True
+Qwen3,Q05,R3,R3,,,,1.0,True,True
+Qwen3,Q06,R4,R4,,,,1.0,True,True
+Qwen3,Q07,R5,R5,,,,1.0,True,True
+Qwen3,Q08,R7,R7,,,,1.0,True,True
+Qwen3,Q09,R8,R8,,,,1.0,True,True
+Qwen3,Q10,R9,R9,,,,1.0,True,True
+Qwen3,Q11,R2,R2,,,,1.0,True,True
+Qwen3,Q12,R3,R3,,,,1.0,True,True
+Qwen3,Q13,"R2, R3",R3,R2,,,0.5,True,False
+Qwen3,Q14,"R2, R3",R3,R2,,,0.5,True,False
+Qwen3,Q15,"R4, R5","R1, R5",R4,R1,,0.5,True,False
+Qwen3,Q16,"R4, R5","R1, R2, R4, R5",,"R1, R2",,1.0,True,False
+Qwen3,Q17,"R4, R5","R4, R5",,,,1.0,True,True
+Qwen3,Q18,"R4, R5","R4, R5",,,,1.0,True,True
+Qwen3,Q19,R6,R6,,,,1.0,True,True
+Qwen3,Q20,R6,R6,,,,1.0,True,True
+Qwen3,Q21,R10,R10,,,,1.0,True,True
+Qwen3,Q22,R10,R10,,,,1.0,True,True
+Qwen3,Q23,R10,R10,,,,1.0,True,True
+Qwen3,Q24,R10,R10,,,,1.0,True,True
+Qwen3,Q25,R10,R10,,,,1.0,True,True
+Qwen3,Q26,R10,R10,,,,1.0,True,True
+Qwen3,Q27,R2,R2,,,,1.0,True,True
+Qwen3,Q28,R9,R9,,,,1.0,True,True
+Qwen3,Q29,R5,R5,,,,1.0,True,True
+Qwen3,Q30,R10,R10,,,,1.0,True,True
+SmolLM3,Q01,R1,R1,,,,1.0,True,True
+SmolLM3,Q02,R1,R1,,,,1.0,True,True
+SmolLM3,Q03,R2,R2,,,,1.0,True,True
+SmolLM3,Q04,R2,R2,,,,1.0,True,True
+SmolLM3,Q05,R3,R3,,,,1.0,True,True
+SmolLM3,Q06,R4,R4,,,,1.0,True,True
+SmolLM3,Q07,R5,R5,,,,1.0,True,True
+SmolLM3,Q08,R7,R7,,,,1.0,True,True
+SmolLM3,Q09,R8,R8,,,,1.0,True,True
+SmolLM3,Q10,R9,R9,,,,1.0,True,True
+SmolLM3,Q11,R2,R2,,,,1.0,True,True
+SmolLM3,Q12,R3,R2,R3,R2,,0.0,True,False
+SmolLM3,Q13,"R2, R3",R2,R3,,,0.5,True,False
+SmolLM3,Q14,"R2, R3",,"R2, R3",,,0.0,False,False
+SmolLM3,Q15,"R4, R5","R1, R4, R5",,R1,,1.0,True,False
+SmolLM3,Q16,"R4, R5","R1, R4",R5,R1,,0.5,True,False
+SmolLM3,Q17,"R4, R5","R4, R5",,,,1.0,True,True
+SmolLM3,Q18,"R4, R5",,"R4, R5",,,0.0,False,False
+SmolLM3,Q19,R6,R6,,,,1.0,True,True
+SmolLM3,Q20,R6,R6,,,,1.0,True,True
+SmolLM3,Q21,R10,,R10,,,0.0,False,False
+SmolLM3,Q22,R10,,R10,,,0.0,False,False
+SmolLM3,Q23,R10,,R10,,,0.0,False,False
+SmolLM3,Q24,R10,,R10,,,0.0,False,False
+SmolLM3,Q25,R10,,R10,,,0.0,False,False
+SmolLM3,Q26,R10,,R10,,,0.0,False,False
+SmolLM3,Q27,R2,R2,,,,1.0,True,True
+SmolLM3,Q28,R9,,R9,,,0.0,False,False
+SmolLM3,Q29,R5,,R5,,,0.0,False,False
+SmolLM3,Q30,R10,,R10,,,0.0,False,False
