@@ -1,0 +1,2 @@
+model,images,source_photographs,top1_accuracy,top3_accuracy,mean_forward_seconds,median_forward_seconds,peak_allocated_gpu_gib
+SigLIP2,50,10,0.98,1.0,0.06367218469998988,0.058549320499992064,1.4301886558532715

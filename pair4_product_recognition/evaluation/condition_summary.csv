@@ -1,0 +1,11 @@
+model,condition,images,top1_correct,top1_accuracy,top3_accuracy
+CLIP,original,10,10,1.0,1.0
+CLIP,darker,10,10,1.0,1.0
+CLIP,brighter,10,10,1.0,1.0
+CLIP,blurred,10,10,1.0,1.0
+CLIP,centre_crop,10,10,1.0,1.0
+SigLIP2,original,10,10,1.0,1.0
+SigLIP2,darker,10,10,1.0,1.0
+SigLIP2,brighter,10,10,1.0,1.0
+SigLIP2,blurred,10,9,0.9,1.0
+SigLIP2,centre_crop,10,10,1.0,1.0

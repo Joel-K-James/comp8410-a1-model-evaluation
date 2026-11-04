@@ -1,0 +1,17 @@
+{
+  "original": {
+    "operation": "unchanged"
+  },
+  "darker": {
+    "brightness": 0.6
+  },
+  "brighter": {
+    "brightness": 1.4
+  },
+  "blurred": {
+    "gaussian_radius_fraction": 0.006
+  },
+  "centre_crop": {
+    "retained_width_and_height": 0.8
+  }
+}

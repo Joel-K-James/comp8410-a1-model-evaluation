@@ -1,0 +1,2 @@
+model,images,source_photographs,top1_accuracy,top3_accuracy,mean_forward_seconds,median_forward_seconds,peak_allocated_gpu_gib
+CLIP,50,10,1.0,1.0,0.0223686648000421,0.021336736999955974,0.5799355506896973

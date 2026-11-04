@@ -1,0 +1,6 @@
+condition,images,top1_accuracy,top3_accuracy,mean_forward_seconds
+original,10,1.0,1.0,0.022709799200038107
+darker,10,1.0,1.0,0.021772351699974025
+brighter,10,1.0,1.0,0.022389677500132165
+blurred,10,1.0,1.0,0.022384334400021542
+centre_crop,10,1.0,1.0,0.02258716120004465

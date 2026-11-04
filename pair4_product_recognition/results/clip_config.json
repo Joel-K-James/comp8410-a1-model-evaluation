@@ -1,0 +1,38 @@
+{
+  "model": "CLIP",
+  "model_id": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "precision": "float32",
+  "load_seconds": 7.9549542260001544,
+  "parameters": 151277313,
+  "candidate_order": [
+    "Coca_Cola",
+    "Coffee_cup",
+    "Doritos",
+    "KitKat",
+    "Mount_Franklin",
+    "Oreo",
+    "Pringles",
+    "Red_Bull",
+    "Red_Rock_Deli",
+    "Smiths_Orginal"
+  ],
+  "candidate_descriptions": [
+    "a bottle of Coca-Cola Classic",
+    "a black takeaway coffee cup with a white lid",
+    "a red packet of Doritos Cheese Supreme corn chips",
+    "a red wrapper of KitKat milk chocolate",
+    "a bottle of Mount Franklin lightly sparkling water",
+    "a blue and white packet of Oreo Double Stuf cookies",
+    "a red cylindrical can of Pringles Original potato crisps",
+    "a blue and silver can of Red Bull energy drink",
+    "a packet of Red Rock Deli sweet chilli and sour cream potato chips",
+    "a blue packet of Smith's Original potato chips"
+  ],
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.22.0",
+  "gpu": "Tesla T4",
+  "evaluation": "fixed ten-candidate zero-shot classification",
+  "timing_scope": "Warmed forward pass: one image and ten candidate texts; includes both encoders; excludes preprocessing, transfers, image loading and saving."
+}

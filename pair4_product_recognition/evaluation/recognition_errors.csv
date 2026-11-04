@@ -1,0 +1,2 @@
+image_id,model,product,condition,image_file,predicted_product,top3_products,true_product_rank,correct_top1,correct_top3,top1_score,score_margin,forward_seconds,peak_allocated_gpu_gib
+Mount_Franklin_blurred,SigLIP2,Mount_Franklin,blurred,inputs/Mount_Franklin_blurred.png,Coca_Cola,Coca_Cola | Mount_Franklin | Red_Bull,2,0,1,-4.077836990356445,0.06903076171875,0.0420954730000175,1.4301886558532717
